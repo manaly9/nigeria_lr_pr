@@ -46,7 +46,7 @@ nigeria-dashboard/
 
 ```bash
 # Clone the repository
-git clone [https://github.com/yourusername/nigeria-dashboard.git](https://github.com/yourusername/nigeria-dashboard.git)
+git clone (https://github.com/manaly9/nigeria_lr_pr.git)
 cd nigeria-dashboard
 
 # Install dependencies using uv
@@ -73,6 +73,9 @@ This project relies heavily on `st.markdown` to inject CSS. Key styles used:
   * **`backdrop-filter: blur(10px)`**: Creates the frosted glass effect.
   * **`rgba(255, 255, 255, 0.9)`**: Sets semi-transparent white backgrounds.
   * **`!important` overrides**: Used to force Streamlit's default containers to accept custom styling.
+
+## Dashboard Display
+![Dashboard Preview](background2.jpeg)
 
 ## 🤝 Acknowledgements
 
