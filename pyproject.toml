@@ -1,0 +1,19 @@
+[project]
+name = "nigeria-lr-pr"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "ipykernel>=7.1.0",
+    "matplotlib>=3.10.7",
+    "pandas>=2.3.3",
+    "requests>=2.32.5",
+    "seaborn>=0.13.2",
+    "streamlit>=1.52.0",
+]
+
+[tool.uv.workspace]
+members = [
+    "my-project",
+]
